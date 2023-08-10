@@ -47,7 +47,7 @@ import {
         formData.append("picturePath", image.name);
       }
   
-      const response = await fetch(`https://ill-ruby-chiton-robe.cyclic.app/posts`, {
+      const response = await fetch(`https://proud-blue-hospital-gown.cyclic.app/posts`, {
         method: "POST",
         headers: { Authorization: `Bearer ${token}` },
         body: formData,

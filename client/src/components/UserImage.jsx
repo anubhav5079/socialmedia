@@ -8,7 +8,7 @@ const UserImage = ({ image, size = "60px" }) => {
         width={size}
         height={size}
         alt="user"
-        src={`https://ill-ruby-chiton-robe.cyclic.app/assets/${image}`}
+        src={`https://proud-blue-hospital-gown.cyclic.app/assets/${image}`}
       />
     </Box>
   );

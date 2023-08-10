@@ -23,7 +23,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
 
   const patchFriend = async () => {
     const response = await fetch(
-      `https://ill-ruby-chiton-robe.cyclic.app/users/${_id}/${friendId}`,
+      `https://proud-blue-hospital-gown.cyclic.app/users/${_id}/${friendId}`,
       {
         method: "PATCH",
         headers: {

@@ -64,7 +64,7 @@ const Form = () => {
     formData.append("picturePath", values.picture.name);
 
     const savedUserResponse = await fetch(
-      "https://ill-ruby-chiton-robe.cyclic.app/auth/register",
+      "https://proud-blue-hospital-gown.cyclic.app/auth/register",
       {
         method: "POST",
         body: formData,
@@ -79,7 +79,7 @@ const Form = () => {
   };
 
   const login = async (values, onSubmitProps) => {
-    const loggedInResponse = await fetch("https://ill-ruby-chiton-robe.cyclic.app/auth/login", {
+    const loggedInResponse = await fetch("https://proud-blue-hospital-gown.cyclic.app/auth/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(values),

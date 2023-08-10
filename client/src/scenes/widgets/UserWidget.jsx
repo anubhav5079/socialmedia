@@ -22,7 +22,7 @@ import {
     const main = palette.neutral.main;
   
     const getUser = async () => {
-      const response = await fetch(`https://ill-ruby-chiton-robe.cyclic.app/users/${userId}`, {
+      const response = await fetch(`https://proud-blue-hospital-gown.cyclic.app/users/${userId}`, {
         method: "GET",
         headers: { Authorization: `Bearer ${token}` },
       });
